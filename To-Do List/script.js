@@ -27,7 +27,9 @@ li.addEventListener("click",(e)=>{
     }
 },false)
 
+window.addEventListener("DOMContentLoaded",()=>{
+    li.innerHTML = sessionStorage.getItem("data");
+})
 
-li.innerHTML = sessionStorage.getItem("data");
 
 
